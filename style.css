@@ -21,7 +21,9 @@ p{
 }
 
 .hero-text{
-    color: brown;
+  -webkit-text-stroke-width: 2px; /* Sets the outline thickness to 2 pixels */
+  -webkit-text-stroke-color: brown; /* Sets the outline color to blue */
+  -webkit-text-fill-color: chocolate; /* Sets the text fill color to white */
     position: absolute;
     text-align: center;
     top: 1%;
@@ -39,6 +41,16 @@ p{
     height: 100%;
     margin: auto;
     margin-top: 0px;
+}
+
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 75px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .info{
