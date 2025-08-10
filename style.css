@@ -53,6 +53,32 @@ p{
     margin-bottom: 50px;
 }
 
+.my-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    border-radius: 8px; /* Rounded corners */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.my-button:hover {
+    background-color: #45a049; /* Darker green */
+    transform: scale(1.05); /* Slight grow */
+}
+
+/* Active (when clicked) */
+.my-button:active {
+    background-color: #3e8e41; /* Even darker green */
+    transform: scale(0.98); /* Slight shrink */
+}
+
 .info{
-    font-size: 1.25em;
+    font-size: 1.75em;
 }
