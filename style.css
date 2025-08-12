@@ -5,10 +5,15 @@ img{
 
 .hero-image{
     background-image: url("./Pizza Images/Screenshot\ 2025-08-12\ at\ 2.16.29\ pm.png");
-    height: 400px;
+    height: 420px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.secondary-image{
+    height: 275px;
+    width: 275px
 }
 
 h1{
