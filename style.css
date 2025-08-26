@@ -1,5 +1,6 @@
 img{
-    width: 100%;
+    width: 250px;
+    height: 250px;
     border-radius: 5px;
 }
 
@@ -109,6 +110,30 @@ p{
 /* Active (when clicked) */
 .my-button:active {
     background-color: #3e8e41; /* Even darker green */
+    transform: scale(0.98); /* Slight shrink */
+}
+
+/* Hover effect 2 */
+.my-button-2:hover {
+    background-color: #bfbfbf; /* Darker grey */
+    transform: scale(1.05); /* Slight grow */
+}
+
+/* Active (when clicked) 2 */
+.my-button-2:active {
+    background-color: #afafaf; /* Even darker grey */
+    transform: scale(0.98); /* Slight shrink */
+}
+
+/* Hover effect 3 */
+.my-button-3:hover {
+    background-color: #af0000; /* Darker red */
+    transform: scale(1.05); /* Slight grow */
+}
+
+/* Active (when clicked) 3 */
+.my-button-3:active {
+    background-color: #780000; /* Even darker red */
     transform: scale(0.98); /* Slight shrink */
 }
 
