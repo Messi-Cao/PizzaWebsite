@@ -4,6 +4,14 @@ img{
     border-radius: 5px;
 }
 
+.hero-background{
+    background-color: burlywood;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hero-image{
     background-image: url("./Pizza Images/Screenshot\ 2025-08-12\ at\ 2.16.29\ pm.png");
     height: 420px;
