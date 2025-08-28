@@ -40,10 +40,19 @@ p{
   -webkit-text-fill-color: chocolate; /* Sets the text fill color to white */
     position: absolute;
     text-align: center;
-    top: 1%;
+    top: 0.5%;
     width: 100%;
     font-family: "Italiana", Garamond, Georgia, "Times New Roman", serif;
+    font-size: 5rem;
+}
+
+.sub-heading{
+    -webkit-text-stroke-width: 2px; /* Sets the outline thickness to 2 pixels */
+    -webkit-text-stroke-color: brown; /* Sets the outline color to blue */
+    -webkit-text-fill-color: chocolate; /* Sets the text fill color to white */
     font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .two-column{
