@@ -118,6 +118,20 @@ p{
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+.my-button-4 {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #000000; /* Black background */
+    color: white; /* White text */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    border-radius: 8px; /* Rounded corners */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
 /* Hover effect */
 .my-button:hover {
     background-color: #45a049; /* Darker green */
