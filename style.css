@@ -4,6 +4,31 @@ img{
     border-radius: 5px;
 }
 
+/* Sticky Header */
+header {
+  position: fixed;       /* always stays in place */
+  top: 0;                /* stick to the top */
+  left: 0;
+  width: 100%;
+  background: #008000;   /* nice green */
+  color: white;
+  padding: 12.5px;
+  text-align: center;
+  z-index: 1000;         /* keep above content */
+}
+
+/* Sticky Footer */
+footer {
+  position: fixed;       /* always stays in place */
+  bottom: 0;             /* stick to the bottom */
+  left: 0;
+  width: 100%;
+  background: #f00;
+  color: white;
+  padding: 12.5px;
+  text-align: center;
+}
+
 .hero-background{
     background-color: burlywood;
     height: 200px;
@@ -14,10 +39,18 @@ img{
 
 .hero-image{
     background-image: url("./Pizza Images/Screenshot\ 2025-08-12\ at\ 2.16.29\ pm.png");
-    height: 420px;
+    height: 370px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 12.5px
+}
+
+.heading-section{
+    text-align: center;
+    background-color: beige;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .secondary-image{
@@ -40,13 +73,25 @@ p{
   -webkit-text-fill-color: chocolate; /* Sets the text fill color to white */
     position: absolute;
     text-align: center;
-    top: 0.5%;
+    top: 10%;
     width: 100%;
     font-family: "Italiana", Garamond, Georgia, "Times New Roman", serif;
     font-size: 5rem;
 }
 
-.sub-heading{
+.hero-text-menu{
+  -webkit-text-stroke-width: 2px; /* Sets the outline thickness to 2 pixels */
+  -webkit-text-stroke-color: brown; /* Sets the outline color to blue */
+  -webkit-text-fill-color: chocolate; /* Sets the text fill color to white */
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    width: 100%;
+    font-family: "Italiana", Garamond, Georgia, "Times New Roman", serif;
+    font-size: 5rem;
+}
+
+.heading-text{
     -webkit-text-stroke-width: 2px; /* Sets the outline thickness to 2 pixels */
     -webkit-text-stroke-color: brown; /* Sets the outline color to blue */
     -webkit-text-fill-color: chocolate; /* Sets the text fill color to white */
@@ -67,14 +112,31 @@ p{
 }
 
 .three-column{
-    display: grid;
+    display: flex; 
+    justify-content: center; 
+    background-color: beige;
     grid-template-columns: repeat(3, 1fr);
-    gap: 75px;
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    gap: 350px;
+    width: 100%;
+    border: beige;
+    padding: auto;
+    padding-top: 40px;
+    padding-bottom: 65px;
 }
+
+.three-column-menu{
+    display: flex; 
+    justify-content: center; 
+    background-color: beige;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    width: 100%;
+    border: beige;
+    padding: auto;
+    padding-top: 40px;
+    padding-bottom: 65px;
+}
+
 
 .my-button {
     display: inline-block;
