@@ -46,6 +46,15 @@ footer {
     margin-top: 12.5px
 }
 
+.hero-background-stores{
+    background-color: url("./Pizza Images/vector-illustration-modern-pizzeria-interior-260nw-2255744145\ copy.png");
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .heading-section{
     text-align: center;
     background-color: beige;
