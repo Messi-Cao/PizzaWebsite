@@ -209,3 +209,12 @@ p{
 .info{
     font-size: 1.75em;
 }
+
+.default-background{
+    background-color: beige;
+    padding-top: 50px;
+}
+
+h3{
+    color: chocolate;
+}
