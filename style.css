@@ -82,7 +82,8 @@ footer {
 .aboutus-text{
     background-color: beige;
     text-align: center;
-    width: 100%;
+    width: 90%;
+    font-size: 1.5rem;
 }
 
 h1{
