@@ -10,10 +10,11 @@ header {
   top: 0;                /* stick to the top */
   left: 0;
   width: 100%;
-  background: #206b20;
+  background: #2a6e2a;
   text-align: center;
   height: 20px;
-  padding: 10px;
+  padding: 15px;
+  z-index: 1000;
 }
 
 /* Sticky Footer */
@@ -25,7 +26,8 @@ footer {
   background: rgb(192, 10, 10);
   text-align: center;
   height: 20px;
-  padding: 10px;
+  padding: 15px;
+  z-index: 1000;
 }
 
 .filler{
@@ -33,15 +35,7 @@ footer {
     background-color: beige;
 }
 
-.hero-background{
-    background-color: burlywood;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hero-image{
+.hero-title-image{
     background-image: url("./Pizza Images/Screenshot\ 2025-09-15\ at\ 6.49.03\ PM.png");
     height: 300px;
     background-position: center;
@@ -50,7 +44,7 @@ footer {
     padding-top: 20px;
 }
 
-.hero-background-stores{
+.hero-image{
     background-image: url("./Pizza Images/vector-illustration-modern-pizzeria-interior-260nw-2255744145\ copy.png");
     height: 200px;
     background-position: center;
@@ -99,9 +93,9 @@ p{
 }
 
 .hero-text{
-  -webkit-text-stroke-width: 2px; /* Sets the outline thickness to 2 pixels */
-  -webkit-text-stroke-color: brown; /* Sets the outline color to blue */
-  -webkit-text-fill-color: chocolate; /* Sets the text fill color to white */
+    -webkit-text-stroke-width: 2px; /* Sets the outline thickness to 2 pixels */
+    -webkit-text-stroke-color: brown; /* Sets the outline color to blue */
+    -webkit-text-fill-color: rgba(210, 105, 30, 0.9); /* Sets the text fill color to white */
     position: absolute;
     text-align: center;
     top: 10%;
@@ -111,9 +105,9 @@ p{
 }
 
 .hero-text-menu{
-  -webkit-text-stroke-width: 2px; /* Sets the outline thickness to 2 pixels */
-  -webkit-text-stroke-color: brown; /* Sets the outline color to blue */
-  -webkit-text-fill-color: chocolate; /* Sets the text fill color to white */
+    -webkit-text-stroke-width: 2px; /* Sets the outline thickness to 2 pixels */
+    -webkit-text-stroke-color: brown; /* Sets the outline color to blue */
+    -webkit-text-fill-color: rgba(210, 105, 30, 0.9); /* Sets the text fill color to white */
     position: absolute;
     text-align: center;
     top: 5%;
@@ -174,31 +168,42 @@ p{
     padding-bottom: 65px;
 }
 
-
+/* Green button styling */
 .my-button {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none; /* Remove underline */
-    border-radius: 8px; /* Rounded corners */
-    border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: 2px solid;
+    border-color: rgb(20, 64, 20);
+    color: white;
+    background-color: rgb(30, 100, 30); /* dark green colour */
+    text-decoration: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /* Hover effect */
 .my-button:hover {
-    background-color: #45a049; /* Darker green */
-    transform: scale(1.05); /* Slight grow */
+    background-color: #45a049; /* Lighter green */
 }
 
-/* Active (when clicked) */
-.my-button:active {
-    background-color: #3e8e41; /* Even darker green */
-    transform: scale(0.98); /* Slight shrink */
+/* Red button styling */
+.my-button-red {
+    cursor: pointer;
+    border: 2px solid;
+    border-color: rgb(100, 30, 30);
+    color: white;
+    background-color: rgb(160, 20, 15); /* dark red colour */
+    text-decoration: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Red hover effect */
+.my-button-red:hover {
+    background-color: #a04545; /* Lighter red */
 }
 
 .info{
