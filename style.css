@@ -10,11 +10,10 @@ header {
   top: 0;                /* stick to the top */
   left: 0;
   width: 100%;
-  background: #008000;   /* nice green */
-  color: white;
-  padding: 12.5px;
+  background: #206b20;
   text-align: center;
-  z-index: 1000;         /* keep above content */
+  height: 20px;
+  padding: 10px;
 }
 
 /* Sticky Footer */
@@ -23,10 +22,15 @@ footer {
   bottom: 0;             /* stick to the bottom */
   left: 0;
   width: 100%;
-  background: #f00;
-  color: white;
-  padding: 12.5px;
+  background: rgb(192, 10, 10);
   text-align: center;
+  height: 20px;
+  padding: 10px;
+}
+
+.filler{
+    height: 40px;
+    background-color: beige;
 }
 
 .hero-background{
@@ -38,16 +42,16 @@ footer {
 }
 
 .hero-image{
-    background-image: url("./Pizza Images/Screenshot\ 2025-08-12\ at\ 2.16.29\ pm.png");
-    height: 370px;
+    background-image: url("./Pizza Images/Screenshot\ 2025-09-15\ at\ 6.49.03\ PM.png");
+    height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 12.5px
+    padding-top: 20px;
 }
 
 .hero-background-stores{
-    background-color: url("./Pizza Images/vector-illustration-modern-pizzeria-interior-260nw-2255744145\ copy.png");
+    background-image: url("./Pizza Images/vector-illustration-modern-pizzeria-interior-260nw-2255744145\ copy.png");
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,11 +64,25 @@ footer {
     background-color: beige;
     padding-top: 1px;
     padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .secondary-image{
     height: 275px;
     width: 275px
+}
+
+.aboutus-title{
+    padding-top: 40px;
+    background-color: beige;
+    text-align: center;
+}
+
+.aboutus-text{
+    background-color: beige;
+    text-align: center;
+    width: 100%;
 }
 
 h1{
@@ -73,7 +91,10 @@ h1{
 
 p{
     color: chocolate;
-    width: 90%;
+}
+
+.home-paragraph-size{
+    width: 90%
 }
 
 .hero-text{
@@ -106,7 +127,14 @@ p{
     -webkit-text-fill-color: chocolate; /* Sets the text fill color to white */
     font-size: 4rem;
     text-align: center;
-    text-decoration: underline;
+}
+
+.stores-note-text{
+    -webkit-text-stroke-width: 2px; /* Sets the outline thickness to 2 pixels */
+    -webkit-text-stroke-color: brown; /* Sets the outline color to blue */
+    -webkit-text-fill-color: chocolate; /* Sets the text fill color to white */
+    font-size: 2rem;
+    text-align: center;
 }
 
 .two-column{
@@ -116,8 +144,7 @@ p{
     gap: 50px;
     width: 100%;
     height: 100%;
-    margin: auto;
-    margin-top: 0px;
+    padding-bottom: 40px;
 }
 
 .three-column{
@@ -161,48 +188,6 @@ p{
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.my-button-2 {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #e0e0e0; /* White background */
-    color: white; /* White text */
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none; /* Remove underline */
-    border-radius: 8px; /* Rounded corners */
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.my-button-3 {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #d63457; /* Red background */
-    color: white; /* White text */
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none; /* Remove underline */
-    border-radius: 8px; /* Rounded corners */
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.my-button-4 {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #000000; /* Black background */
-    color: white; /* White text */
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none; /* Remove underline */
-    border-radius: 8px; /* Rounded corners */
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
 /* Hover effect */
 .my-button:hover {
     background-color: #45a049; /* Darker green */
@@ -212,30 +197,6 @@ p{
 /* Active (when clicked) */
 .my-button:active {
     background-color: #3e8e41; /* Even darker green */
-    transform: scale(0.98); /* Slight shrink */
-}
-
-/* Hover effect 2 */
-.my-button-2:hover {
-    background-color: #bfbfbf; /* Darker grey */
-    transform: scale(1.05); /* Slight grow */
-}
-
-/* Active (when clicked) 2 */
-.my-button-2:active {
-    background-color: #afafaf; /* Even darker grey */
-    transform: scale(0.98); /* Slight shrink */
-}
-
-/* Hover effect 3 */
-.my-button-3:hover {
-    background-color: #af0000; /* Darker red */
-    transform: scale(1.05); /* Slight grow */
-}
-
-/* Active (when clicked) 3 */
-.my-button-3:active {
-    background-color: #780000; /* Even darker red */
     transform: scale(0.98); /* Slight shrink */
 }
 
