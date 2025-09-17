@@ -230,6 +230,8 @@ p{
     border-radius: 5px;
     padding: 3px;
     width: 240px;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 /* exit button */
@@ -270,4 +272,27 @@ h3{
     width: 100%;
     font-family: "Italiana", Garamond, Georgia, "Times New Roman", serif;
     font-size: 4rem;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-color: rgb(174, 140, 0);
+    background-color: rgb(228, 167, 0); 
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px;
+    width: 240px;
+    height: 20px;
+}
+
+.card-text{
+    text-align: center;
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-weight: bold;
 }
