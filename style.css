@@ -168,6 +168,17 @@ p{
     padding-bottom: 65px;
 }
 
+.three-column-details{
+    display: flex; 
+    justify-content: center; 
+    background-color: beige;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 900px;
+    width: 100%;
+    border: beige;
+    padding-bottom: 40px;
+}
+
 /* Green button styling */
 .my-button {
     cursor: pointer;
@@ -208,14 +219,35 @@ p{
 
 /* menu button */
 .menu-button {
+    display: block;
     cursor: pointer;
     border: 2px solid;
     border-color: rgb(174, 140, 0);
     color: white;
     background-color: rgb(228, 167, 0); 
     text-decoration: none;
+    text-align: center;
     border-radius: 5px;
-    padding: 3px 10px;
+    padding: 3px;
+    width: 240px;
+}
+
+/* exit button */
+.exit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid;
+    border-color: brown;
+    color: chocolate;
+    background-color: rgb(220, 210, 170); 
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    height: 240px;
+    width: 240px;
+    font-size: 5rem;
 }
 
 .info{
@@ -224,9 +256,18 @@ p{
 
 .default-background{
     background-color: beige;
-    padding-top: 50px;
+    padding: 60px 10px;
 }
 
 h3{
     color: chocolate;
+}
+
+.menu-details {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    width: 100%;
+    font-family: "Italiana", Garamond, Georgia, "Times New Roman", serif;
+    font-size: 4rem;
 }
