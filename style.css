@@ -206,6 +206,18 @@ p{
     background-color: #a04545; /* Lighter red */
 }
 
+/* menu button */
+.menu-button {
+    cursor: pointer;
+    border: 2px solid;
+    border-color: rgb(174, 140, 0);
+    color: white;
+    background-color: rgb(228, 167, 0); 
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
 .info{
     font-size: 1.75em;
 }
