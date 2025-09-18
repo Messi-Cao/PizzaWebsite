@@ -30,11 +30,7 @@ footer {
   z-index: 1000;
 }
 
-.filler{
-    height: 40px;
-    background-color: beige;
-}
-
+/* index page hero image */
 .hero-title-image{
     background-image: url("./Pizza Images/Screenshot\ 2025-09-15\ at\ 6.49.03\ PM.png");
     height: 300px;
@@ -44,6 +40,7 @@ footer {
     padding-top: 20px;
 }
 
+/* hero image on other pages */
 .hero-image{
     background-image: url("./Pizza Images/vector-illustration-modern-pizzeria-interior-260nw-2255744145\ copy.png");
     height: 200px;
@@ -92,6 +89,7 @@ p{
     width: 90%
 }
 
+/* website title */
 .hero-text{
     -webkit-text-stroke-width: 2px; /* Sets the outline thickness to 2 pixels */
     -webkit-text-stroke-color: brown; /* Sets the outline color to blue */
@@ -104,6 +102,7 @@ p{
     font-size: 5rem;
 }
 
+/* page title */
 .hero-text-menu{
     -webkit-text-stroke-width: 2px; /* Sets the outline thickness to 2 pixels */
     -webkit-text-stroke-color: brown; /* Sets the outline color to blue */
@@ -116,6 +115,7 @@ p{
     font-size: 5rem;
 }
 
+/* heading */
 .heading-text{
     -webkit-text-stroke-width: 2px; /* Sets the outline thickness to 2 pixels */
     -webkit-text-stroke-color: brown; /* Sets the outline color to blue */
@@ -124,7 +124,8 @@ p{
     text-align: center;
 }
 
-.stores-note-text{
+/* important notes */
+.important-note-text{
     -webkit-text-stroke-width: 2px; /* Sets the outline thickness to 2 pixels */
     -webkit-text-stroke-color: brown; /* Sets the outline color to blue */
     -webkit-text-fill-color: chocolate; /* Sets the text fill color to white */
@@ -193,7 +194,7 @@ p{
     margin-right: 50px;
 }
 
-/* Hover effect */
+/* Green hover effect */
 .my-button:hover {
     background-color: #45a049; /* Lighter green */
 }
@@ -250,15 +251,18 @@ p{
     height: 240px;
     width: 240px;
     font-size: 5rem;
+    font-weight: bold;
 }
 
 .info{
     font-size: 1.75em;
 }
 
+/* avoid overlapping with hero images and texts */
 .default-background{
     background-color: beige;
-    padding: 60px 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 h3{
